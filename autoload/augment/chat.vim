@@ -68,7 +68,6 @@ function! augment#chat#OpenChatPanel() abort
     setlocal nospell             " Disable spell checking
     setlocal nofoldenable        " Disable folding
     setlocal textwidth=0         " Disable text width limit
-    setlocal scrolloff=0         " Disable scrolloff
 
     " Add the chat header to the buffer
     call s:ResetChatContents()
